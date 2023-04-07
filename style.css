@@ -31,20 +31,20 @@
 .resullt{
     height: 110px;
     width: 200px;
-    margin: auto;
 }
 .inp{
     height: 20px;
     border-radius: 5px;
     border: solid black 1px;
 }
-#submit-btn{
+.btn{
     border: solid black 1px;
     border-radius: 50px;
     height: 20px;
     width: 100px;
+    margin-left: 50px;
 }
-#submit-btn:hover {
+.btn:hover {
     cursor: pointer;
     background-color: cornflowerblue;
 }

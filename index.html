@@ -12,9 +12,12 @@
         <div class="content">
         <header>Insira o valor de dois lados.</header>
         <div class="programa">
+        <form id="form">
             <input type="text" placeholder="Lado A" id="lado-a" class="inp">
-            <input type="text" placeholder="Lado B" id="lado-b" class="inp">
-            <input type="submit" value="Calcular" onclick="Calcular()" id="submit-btn">
+            <input type="text" placeholder="Lado B" id="lado-b" class="inp">            
+        </form>
+        <input type="submit" value="Calcular" onclick="Calcular()" class="btn">
+        <input type="button" value="Limpar" onclick="Limpar()" class="btn">
         </div>
         <div class="result">
             <h3>O valor do terceiro lado é</h3>
